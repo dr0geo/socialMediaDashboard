@@ -6,21 +6,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/png" sizes="32x32" href="./resources/images/favicon-32x32.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
   <title>Frontend Mentor | Social Media Dashboard</title>
   <link rel="stylesheet" type="text/css" href="./resources/css/style.css" />
   <script src="./resources/js/main.js" type="text/javascript" defer></script>
 </head>
 
 <body>
-  <header>
-    <div id="title">
-      <h1>Social Media Dashboard</h1>
-      <p>Total Followers: 23,004</p>
-    </div>
-    <div id="dark-mode-switch">
-      <p>Dark Mode</p>
-      <div id="switch">
-        <div id="ball">
+  <div id="background-top">
+    <header>
+      <div id="title">
+        <h1>Social Media Dashboard</h1>
+        <p>Total Followers: 23,004</p>
+      </div>
+      <div id="dark-mode-switch">
+        <p>Dark Mode</p>
+        <div id="switch">
+          <div id="ball">
+          </div>
         </div>
       </div>
     </div>
@@ -28,28 +31,30 @@
 
   <main>
     <section id="total-followers">
-      <div id="facebook">
+      <div id="facebook" class="social-network">
         <p><img src="./resources/images/icon-facebook.svg" alt="FaceBook Logo" />@nathanf</p>
         <p><strong>1987</strong><br />
         <span class="uppercase">Followers</span></p>
         <p class="green"><img src="./resources/images/icon-up.svg" alt="" />12 Today</p>
       </div>
 
-      <div id="twitter">
+      <div id="twitter" class="social-network">
         <p><img src="./resources/images/icon-twitter.svg" alt="Twitter Logo" />@nathanf</p>
         <p><strong>1044</strong><br />
         <span class="uppercase">Followers</span></p>
         <p class="green"><img src="./resources/images/icon-up.svg" alt="" />99 Today</p>
       </div>
 
-      <div id="instagram">
-        <p><img src="./resources/images/icon-instagram.svg" alt="Instagram Logo" />@realnathanf</p>
-        <p><strong>11k</strong><br />
-        <span class="uppercase">Followers</span></p>
-        <p class="green"><img src="./resources/images/icon-up.svg" alt="" />1099 Today</p>
+      <div id="insta-wrapper">
+        <div id="instagram" class="social-network">
+          <p><img src="./resources/images/icon-instagram.svg" alt="Instagram Logo" />@realnathanf</p>
+          <p><strong>11k</strong><br />
+          <span class="uppercase">Followers</span></p>
+          <p class="green"><img src="./resources/images/icon-up.svg" alt="" />1099 Today</p>
+        </div>
       </div>
 
-      <div id="youtube">
+      <div id="youtube" class="social-network">
         <p><img src="./resources/images/icon-youtube.svg" alt="YouTube Logo" />Nathan F.</p>
         <p><strong>8239</strong><br />
         <span class="uppercase">Subscribers</span></p>
