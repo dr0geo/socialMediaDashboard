@@ -27,11 +27,9 @@ const changeButtonColor = () => {
 const changeSwitchSide = () => {
   let ballSide = getComputedStyle(ball);
   if (ballSide.left === '2px') {
-    ball.style.left = 'none';
-    ball.style.right = '2px';
+    ball.style.left = '27px';
   } else {
     ball.style.left = '2px';
-    ball.style.right = 'none';
   }
 }
 
@@ -92,7 +90,6 @@ const changeTextColor = () => {
     }
   }
 }
-
 
 
 button.onclick = changeTopBackgroundColor;
